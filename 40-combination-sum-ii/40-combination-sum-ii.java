@@ -29,7 +29,7 @@ class Solution {
 
       int p = candidates[next];
       if (target - p < 0) {
-        break;
+        continue;
       }
 
       combi.add(p);
